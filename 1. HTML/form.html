@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Forms</title>
+</head>
+
+<body>
+  <h2>Without Using Table</h2>
+  <form action="https://www.google.com" target="_blank">
+
+    <label for="userName">Username: </label>
+    <input type="text" id="userName">
+    <br><br>
+    <label for="password">Password: </label>
+    <input type="password" id="password">
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <br>
+  <hr style="border: 2px white solid;">
+
+  <form action="https://www.google.com" target="_blank">
+    <h2>Using Table</h2>
+    <table>
+      <tr>
+        <td>
+          <label for="userName">Username: </label>
+        </td>
+        <td>
+          <input type="text" id="userName">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="password">Password: </label>
+        </td>
+        <td>
+          <input type="password" id="password">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input type="submit" value="Submit">
+        </td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+
+</html>
